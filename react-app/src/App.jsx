@@ -10,7 +10,7 @@ function App() {
   useEffect(() => {
     (async function () {
       try {
-        const response = await fetch('/api/hello')
+        const response = await fetch('https://geolocation-backend-dun.vercel.app/hello')
         const data = await response.json()
         setMessage(data.message)
       } catch (error) {
