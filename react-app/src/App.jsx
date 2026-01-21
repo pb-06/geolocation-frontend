@@ -48,7 +48,7 @@ function App() {
       </div>
 
       <div className="card">
-        <p>Message {data?.message}</p>
+        <p>Message {message?.message}</p>
       </div>
     </>
   )
