@@ -46,6 +46,10 @@ function App() {
           </ol>
         </p>
       </div>
+
+      <div className="card">
+        <p>Message {data?.message}</p>
+      </div>
     </>
   )
 }
